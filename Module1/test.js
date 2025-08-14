@@ -1,3 +1,5 @@
+const { lastNameValue, addMethod, subMethod } = require("./test1")
+
 console.log('Hello Node js')
 
 function sayHello(name) {
@@ -11,4 +13,9 @@ function nodeModule() {
 sayHello('Rohit Sharma')
 nodeModule()
 
-console.log(global)
+// console.log(global)
+let name = 'Rajiv';
+console.log(name)
+console.log(lastNameValue)
+console.log(addMethod(10,89))
+console.log(subMethod(10,19))

@@ -22,3 +22,19 @@ The system was build twice as faster in java and lesser 33% code and with fewer 
 3.) There is no window object in the node
 
 4.) Node js is modular based system , i.e. all vars and functions are inside the file scope
+
+5.) What is modularity in node js ?
+Modularity refers to the practice of organizing the code into self-contained , independednt units called modules. Each. module encapsulates specific functionality and can be reused across different part of the application.
+Key aspects of modularity in Node.js:
+(a) Encapsulation:
+Modules prevent global namespace pollution by keeping variables and functions defined within them private by default. They are not accessible outside the module unless explicitly exported.
+(b) Reusability:
+Modules can export functions, objects, or values, making them available for import and use in other modules, promoting code reuse and reducing redundancy.
+(c) Organization:
+Modularity allows breaking down large applications into smaller, manageable files, making the codebase easier to understand, navigate, and maintain.
+(d) Maintainability:
+Changes or updates to a specific functionality can be isolated within its corresponding module, minimizing the impact on other parts of the application and simplifying debugging.
+(e) Module Systems:
+Node.js primarily supports two module systems:
+CommonJS: The traditional module system in Node.js, using require() for importing and module.exports or exports for exporting.
+ES Modules (ECMAScript Modules): The standard JavaScript module system, using import and export statements
