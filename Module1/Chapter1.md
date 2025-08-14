@@ -19,3 +19,6 @@ Features of Node js->
 2.) Paypal adapted node js system from the Java system, So they transforned syste from java to ndoe js 
 The system was build twice as faster in java and lesser 33% code and with fewer people as well as performed well in 2013
 
+3.) There is no window object in the node
+
+4.) Node js is modular based system , i.e. all vars and functions are inside the file scope
