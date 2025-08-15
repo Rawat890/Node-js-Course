@@ -1,0 +1,14 @@
+{
+  "name": "module2",
+  "version": "1.0.0",
+  "description": "Testing Purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "starting"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.8.2"
+  }
+}

@@ -1,0 +1,1 @@
+npm init - to init package.json
