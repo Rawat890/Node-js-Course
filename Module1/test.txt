@@ -1,0 +1,2 @@
+The new text is adding using write sync
+I am appending new data without overriding previous data
