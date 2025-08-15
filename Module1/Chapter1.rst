@@ -38,3 +38,8 @@ Changes or updates to a specific functionality can be isolated within its corres
 Node.js primarily supports two module systems:
 CommonJS: The traditional module system in Node.js, using require() for importing and module.exports or exports for exporting.
 ES Modules (ECMAScript Modules): The standard JavaScript module system, using import and export statements
+
+6.) fs - module that is used to play with files in the computer system. 
+fs returns a buffer unless an encoding is applied in order to convert that buffer to readable strings
+
+7.) writeSync overrides the previous data with new data
